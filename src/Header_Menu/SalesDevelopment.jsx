@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-// import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -10,9 +9,24 @@ import HeroImage from '../Logo/hero-img.png';
 
 import './SalesDevelopment.css';
 import LogoCarousel from "./LogoCarousel";
+import { useEffect, useRef } from "react";
 
 
 function SalesDevelopment({openPopup}) {
+
+    const imgRef = useRef(null)
+
+    useEffect(() => {
+        const handleImgScroll = () => {
+            const scrollY = window.scrollY;
+            if(imgRef.current) {
+                imgRef.current.style.transform = `translateY(-${scrollY * 0.3}px)`;
+            }
+        };
+        window.addEventListener("scroll", handleImgScroll);
+        return () => window.removeEventListener("scroll", handleImgScroll);
+    }, []);
+
 
     return (
         <>
@@ -31,7 +45,7 @@ function SalesDevelopment({openPopup}) {
 
                     </div>
                     <div className="hero_image">
-                        <img src={HeroImage} alt="Hero Image" />
+                        <img ref={imgRef} src={HeroImage} alt="Hero Image" />
                     </div>
                 </div>
             </div>

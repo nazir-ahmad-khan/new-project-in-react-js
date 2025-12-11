@@ -1,5 +1,5 @@
 
-import '../Footer/footer.css';
+import './footer.css';
 import { FaMediumM, FaFacebookF, FaInstagram, FaTiktok, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 

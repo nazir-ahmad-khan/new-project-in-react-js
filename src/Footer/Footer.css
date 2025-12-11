@@ -1,0 +1,161 @@
+.footer-main-container {
+    width: 100%;
+    background-color: #11292c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.footer-main-container h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-sub-container {
+    width: 90%;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-left-container {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    padding: 90px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-form label {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.footer-form input {
+    padding: 14px;
+    width: 260px;
+    border-radius: 6px;
+}
+
+.footer-btn {
+    padding: 14px 22px;
+    margin-top: 20px;
+    background-color: #c4ecb0;
+    color: #11292c;
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-container {
+    margin: 80px 0;
+}
+
+.footer-container img {
+    margin-bottom: 20px;
+}
+
+.footer-container h2 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* 2nd div Container CSS strat.......................................... */
+.footer-right-container {
+    /* border: 2px solid yellow; */
+    display: flex;
+    width: 50%;
+    padding: 90px;
+}
+
+.footer-right-container ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+
+.footer-right-container ul li {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.footer-right-container {
+    gap: 50px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    }
+
+.footer-right-container .footer-menu {
+    display: flex;
+    flex-direction: column;   
+    gap: 40px;    
+}
+
+
+
+
+.footer-info-container{
+    gap: 20px;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    width: 79%;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color:  rgba(255, 255, 255, 0.7);
+}
+.footer-info a:first-child {
+    margin-right: auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-info-container .footer-info {
+    width: 70%;
+    padding-right: 40px;
+
+}
+
+.footer-info-container .footer-icons {
+    width: 30%;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+    justify-content: right;
+    color: #fff;
+
+}

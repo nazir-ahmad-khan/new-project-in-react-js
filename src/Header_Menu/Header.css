@@ -1,0 +1,65 @@
+* {
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.main_container{
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  z-index: 999;
+}
+
+.header-container {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-container .menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header-container .menu ul li a {
+  text-decoration: none;
+  color: #11292c;
+  font-size: 16px;
+  font-weight: 300;
+
+}
+
+.btn {
+  padding: 16px 30px;
+  background-color: #c4ecb0;
+  color: #11292c;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+ background-color: #b4e09f;
+ transform: translateY(-2px);
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* isi ma baqi pages ka css hai temprery */
+.all_pages{
+  padding: 140px 0;
+}

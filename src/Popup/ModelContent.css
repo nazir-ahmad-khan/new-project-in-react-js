@@ -1,0 +1,102 @@
+.popup-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-box{
+    z-index: 10000;
+    position: relative;
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 0 15px rgba(219, 216, 216, 0.8);
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.popup-box h2{
+    font-size: 40px;
+    line-height: 1.2;
+    color: #000;
+}
+
+.popup-box p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #000;
+}
+
+.popup-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup-box form input {
+    padding: 14px;
+    border-radius: 10px;
+    
+}
+.popup-box form textarea {
+    padding: 14px;
+    height: 60px;
+    border-radius: 10px;
+    
+}
+
+.form-check{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.form-check-box{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: black;
+}
+
+.form-check-text{
+    font-size: 12px;
+    line-height: 1.2;
+    color: #2c2b2bb3;
+    padding: 20px 0;
+}
+
+
+.formbtn {
+    padding: 14px 22px;
+    background-color: #c4ecb0;
+    color: #11292c;
+    font-size: 16px;
+    line-height: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.popup-box form p{
+    font-size: 16px;
+    color: #2c2b2bb3;
+    text-align: center;
+}
+
+.closs-btn{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}

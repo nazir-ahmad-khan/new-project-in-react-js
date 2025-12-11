@@ -1,0 +1,421 @@
+.hero_section {
+    background-color: #11292d;
+    width: 100%;
+
+}
+
+.sub_section {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 0 0 0;
+}
+
+.text_content {
+    width: 60%;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.text_content h1 {
+    font-size: 105px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #c4ecb0;
+}
+
+.text_content h2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    width: 60%;
+    color: #fff;
+}
+
+.text_content h3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    width: 77%;
+    color: #fff;
+}
+
+
+.hero_image {
+    align-items: center;
+    width: 40%;
+    margin-right: 40px;
+}
+
+.hero_image img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+/* Second Container start ..........................................*/
+
+.second_container {
+    padding: 100px;
+}
+
+.second_title {
+    color: #11292c;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.second_sub_title {
+    color: #11292c;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.carousel_container {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.second_container_new {
+    padding: 0 60px;
+    gap: 40px;
+}
+
+.second_sub_Container_new {
+    padding: 40px 25px;
+}
+
+.swiper-wrapper {
+    padding: 60px 60px;
+    display: flex;
+    gap: 5px;
+}
+
+.swiper-pagination {
+    display: flex;
+    bottom: auto !important;
+    top: 10px !important;
+    padding-left: 80px;
+}
+
+.swiper-pagination-bullet {
+    margin: 0px var(--swiper-pagination-bullet-horizontal-gap, 4px);
+    border-radius: 0;
+    width: 40px;
+    height: 5px;
+}
+
+
+.box_info {
+    width: 400px !important;
+    height: 300px;
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f3f7;
+    color: #fff;
+    border-radius: 60px;
+    text-align: left;
+    gap: 12px;
+}
+
+
+.swiper-slide-active .box_info {
+    background-color: #c4ecb0;
+    /* apna color rakh lena */
+    transition: 0.3s ease;
+}
+
+.box_info h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #11292c;
+}
+
+.box_info p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #0e2123;
+}
+
+
+/* Logo Carousel Thrid Container CSS............................ */
+
+.logo_boxs {
+    background-color: #f1f3f7;
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logos_img {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-container .logo-first-container .swiper {
+    margin-bottom: -75px;
+}
+
+.logo_second_container .logo_sliders {
+    margin-left: 24px !important;
+}
+
+.logo_second_container .logo_sliders .swiper-slide {
+    width: 190px !important;
+}
+
+.logo_second_container .logo_sliders .swiper-slide .swiper-wrapper {
+    padding: 5px !important;
+}
+
+
+/* Fourth Cards Container CSS............................ */
+
+.fourth_title {
+    text-align: center;
+    padding-top: 5%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #11292c;
+}
+
+.fourth-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fourth-first-sub-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    box-sizing: border-box;
+    padding-top: 4%;
+}
+
+.cards-container-one {
+    width: 24%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.fourth-first-sub-container .cards-container-one img {
+    background-color: #0e2123;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.fourth-first-sub-container .cards-container-one h1 {
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* 🔥Fifth Container CSS Start ...........................*/
+
+
+.fifth_container_new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+/* this (fourth_title) ClassName use in Fifth and fourth container*/
+.fifth_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+.fifth_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.fifth_images img {
+    box-shadow: 0px 0px 20px #00000015;
+    border-radius: 30px;
+}
+
+/* 🔥Sixth Container Start ............................................................*/
+
+.sixth_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 140px;
+}
+
+.Sixth_images_main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.clientslogos {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.clientslogos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 40px #00000015;
+    padding: 30px;
+    width: 260px;
+    height: 180px;
+    gap: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+
+.clientslogos div h3 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #11292c;
+    padding: 0 24px;
+}
+
+/* 🔥Seventh Container CSS Start ............................................................*/
+
+.seventh_container {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.seventh_img {
+    width: 65%;
+}
+
+.seventh_content {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* 🔥Eight Container CSS Start ............................................................*/
+.bullet-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.bullet-container .sub-bullet {
+    margin-top: 6px;
+}
+
+.listsgroup {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+    gap: 30px;
+}
+
+
+.Content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.Content-text .title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+.bullet {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    background-color: #c4ecb0;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.eight_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
